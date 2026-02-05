@@ -12,8 +12,10 @@
       font-family: 'Libre Baskerville', serif;
       background-color: #E4DDD1;
       color: #333333;
+      min-height: 100vh;
       display: flex;
-      justify-content: center;
+      justify-content: center; /* nur horizontal zentrieren des Containers */
+      align-items: flex-start; /* Text oben beginnen */
       padding: 40px 20px;
       box-sizing: border-box;
     }
@@ -23,13 +25,13 @@
     }
     h1 {
       font-size: 52px;
-      text-align: center;
+      text-align: center; /* Überschrift zentrieren */
       line-height: 1.2;
       margin-bottom: 30px;
     }
     p {
       font-size: 21px;
-      text-align: left;
+      text-align: left; /* Text linksbündig */
       margin-bottom: 1em;
     }
     .lh-1-9 { line-height: 1.9; }
@@ -40,7 +42,7 @@
     .small {
       font-size: 17px;
       margin-top: 30px;
-      text-align: left;
+      text-align: left; /* kleiner Satz auch linksbündig */
     }
     @media (max-width: 600px) {
       h1 { font-size: 36px; }
