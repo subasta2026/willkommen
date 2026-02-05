@@ -14,8 +14,8 @@
       color: #333333;
       min-height: 100vh;
       display: flex;
-      justify-content: center; /* nur horizontal zentrieren des Containers */
-      align-items: flex-start; /* Text oben beginnen */
+      justify-content: center;
+      align-items: flex-start;
       padding: 40px 20px;
       box-sizing: border-box;
     }
@@ -25,24 +25,30 @@
     }
     h1 {
       font-size: 52px;
-      text-align: center; /* Überschrift zentrieren */
+      text-align: center;
       line-height: 1.2;
-      margin-bottom: 30px;
+      margin-bottom: 40px;
     }
     p {
       font-size: 21px;
-      text-align: left; /* Text linksbündig */
+      text-align: left;
       margin-bottom: 1em;
     }
-    .lh-1-9 { line-height: 1.9; }
+    /* Zeilenhöhen */
     .lh-2-0 { line-height: 2.0; }
     .lh-2-2 { line-height: 2.2; }
-    .lh-2-3 { line-height: 2.3; }
+    .lh-2-4 { line-height: 2.4; }
     .lh-2-5 { line-height: 2.5; }
+    .lh-2-7 { line-height: 2.7; }
+
+    /* Abstand zwischen Textblöcken */
+    .block { margin-bottom: 2em; }
+
     .small {
       font-size: 17px;
       margin-top: 30px;
-      text-align: left; /* kleiner Satz auch linksbündig */
+      text-align: left;
+      line-height: 2.0;
     }
     @media (max-width: 600px) {
       h1 { font-size: 36px; }
@@ -55,21 +61,21 @@
   <div class="container">
     <h1>Willkommen</h1>
     
-    <p class="lh-1-9">Gut, dass du hier bist.<br>Ein Raum zum Atmen.</p>
-    <p class="lh-1-9">Tritt ein.</p>
-    <p class="lh-1-9">Für einen Austausch,<br>der sich stimmig anfühlt.</p>
-    <p class="lh-2-3">Was ist jetzt lebendig?</p>
-    <p class="lh-2-3">Richtung entsteht durch Wahrnehmung.</p>
-    <p class="lh-2-0">Wir wenden uns der Stelle zu,<br>an der dein Körper wieder mit dir spricht.</p>
-    <p class="lh-1-9">Dort entsteht Energie.<br>Und aus Energie entsteht Richtung.</p>
-    <p class="lh-2-5">Für dich, wenn du:<br>• viel fühlst, aber dich oft im Kopf verlierst<br>• deinem Körper mehr vertraust als deinen Gedanken<br>• keine weiteren Konzepte willst<br>• das Erleben dem Machen vorziehst<br>• Ehrlichkeit höher schätzt als Komfort</p>
-    <p class="lh-2-0">Wir arbeiten nicht mit dem,<br>was du willst.</p>
-    <p class="lh-1-9">Wir arbeiten mit dem,<br>was in dir lebt.</p>
-    <p class="lh-1-9">Wenn das sichtbar wird,<br>entsteht Richtung von selbst.</p>
-    <p class="lh-2-2">Wir treffen uns.<br>Online oder in Präsenz.<br>Wir prüfen die Resonanz.</p>
-    <p class="lh-2-2">Wenn du beim Lesen etwas gespürt hast,<br>reicht das.</p>
-    <p class="lh-1-9">Schreib mir.</p>
-    <p class="small">Ich antworte innerhalb von 48 Stunden</p>
+    <p class="lh-2-0 block">Gut, dass du hier bist.<br>Ein Raum zum Atmen.</p>
+    <p class="lh-2-0 block">Tritt ein.</p>
+    <p class="lh-2-0 block">Für einen Austausch,<br>der sich stimmig anfühlt.</p>
+    <p class="lh-2-4 block">Was ist jetzt lebendig?</p>
+    <p class="lh-2-4 block">Richtung entsteht durch Wahrnehmung.</p>
+    <p class="lh-2-2 block">Wir wenden uns der Stelle zu,<br>an der dein Körper wieder mit dir spricht.</p>
+    <p class="lh-2-0 block">Dort entsteht Energie.<br>Und aus Energie entsteht Richtung.</p>
+    <p class="lh-2-7 block">Für dich, wenn du:<br>• viel fühlst, aber dich oft im Kopf verlierst<br>• deinem Körper mehr vertraust als deinen Gedanken<br>• keine weiteren Konzepte willst<br>• das Erleben dem Machen vorziehst<br>• Ehrlichkeit höher schätzt als Komfort</p>
+    <p class="lh-2-2 block">Wir arbeiten nicht mit dem,<br>was du willst.</p>
+    <p class="lh-2-0 block">Wir arbeiten mit dem,<br>was in dir lebt.</p>
+    <p class="lh-2-0 block">Wenn das sichtbar wird,<br>entsteht Richtung von selbst.</p>
+    <p class="lh-2-4 block">Wir treffen uns.<br>Online oder in Präsenz.<br>Wir prüfen die Resonanz.</p>
+    <p class="lh-2-4 block">Wenn du beim Lesen etwas gespürt hast,<br>reicht das.</p>
+    <p class="lh-2-0 block">Schreib mir.</p>
+    <p class="small block">Ich antworte innerhalb von 48 Stunden</p>
   </div>
 </body>
 </html>
