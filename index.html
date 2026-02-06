@@ -54,17 +54,19 @@
       line-height: 1.6;
     }
 
-    .space-75 {
-      margin-bottom: 75px;
+    /* Zentrierte Punkte ◦ */
+    .center-dot {
+      font-size: 24px;
+      color: #333333;
+      text-align: center;
+      margin-bottom: 50px; /* Abstand nach Highlight */
     }
 
-    .space-60 {
-      margin-top: 60px;
-    }
-
-    .space-40 {
-      margin-bottom: 40px;
-    }
+    .space-75 { margin-bottom: 75px; }
+    .space-60 { margin-top: 60px; }
+    .space-40 { margin-bottom: 40px; }
+    .space-50 { margin-top: 50px; } /* neuer Abstand für ◦ vor "schreib mir" */
+    .space-40-text { margin-top: 40px; } /* Abstand für Text "Wenn du magst..." */
 
     .small {
       font-size: 17px;
@@ -77,6 +79,7 @@
       p { font-size: 18px; }
       .highlight { font-size: 22px; }
       .center-line { font-size: 20px; }
+      .center-dot { font-size: 20px; }
       .small { font-size: 14px; }
     }
   </style>
@@ -88,24 +91,21 @@
     <h1>Willkommen</h1>
 
     <p>Gut, dass du hier bist.<br>Ein Raum zum Atmen.</p>
-
     <p>Tritt ein.</p>
-
     <p>Für einen Austausch,<br>der sich stimmig anfühlt.</p>
 
     <p class="highlight">Was ist jetzt lebendig?</p>
 
+    <!-- Neuer Punkt ◦ nach Highlight -->
+    <p class="center-dot">◦</p>
 
     <!-- Zentrierte Zeile nach Highlight -->
     <p class="center-line space-75">
       Richtung entsteht durch Wahrnehmung.
     </p>
 
-
     <p>Wir wenden uns der Stelle zu,<br>an der dein Körper wieder mit dir spricht.</p>
-
     <p>Dort entsteht Energie.<br>Und aus Energie entsteht Richtung.</p>
-
     <p>
       Für dich, wenn du:<br>
       • viel fühlst, aber dich oft im Kopf verlierst<br>
@@ -114,33 +114,29 @@
       • das Erleben dem Machen vorziehst<br>
       • Ehrlichkeit höher schätzt als Komfort
     </p>
-
     <p>Wir arbeiten nicht mit dem,<br>was du willst.</p>
-
     <p>Wir arbeiten mit dem,<br>was in dir lebt.</p>
-
     <p>Wenn das sichtbar wird,<br>entsteht Richtung von selbst.</p>
-
     <p>
       Wir klären kurz, ob Resonanz da ist.<br>
       Dann treffen wir uns online oder in Präsenz.<br>
       Ohne Verpflichtung.<br>
       Ohne Programm.
     </p>
-
-
     <p>Wenn du beim Lesen etwas gespürt hast,<br>reicht das.</p>
-
 
     <!-- Unterer CTA-Bereich -->
     <div class="space-60"></div>
 
-    <p class="center-line space-40">
-      Richtung entsteht durch Wahrnehmung.
+    <!-- Punkt ◦ vor "Wenn du magst, schreib mir." -->
+    <p class="center-dot space-50">◦</p>
+
+    <!-- Neuer Textbereich -->
+    <p class="center-line space-40-text">
+      Wenn du magst, schreib mir.<br>
+      Ohne Verpflichtung.<br>
+      Ohne Programm.
     </p>
-
-    <p>Wenn du magst, schreib mir.</p>
-
 
     <p class="small">Ich antworte innerhalb von 48 Stunden</p>
 
