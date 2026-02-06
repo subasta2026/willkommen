@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landingpage</title>
+
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
 
   <style>
     body {
       margin: 0;
-      padding: 140px 20px 40px; /* 100px mehr oben */
+      padding: 140px 20px 40px;
       font-family: 'Libre Baskerville', serif;
       background-color: #E4DDD1;
       color: #333333;
@@ -26,7 +27,7 @@
     }
 
     h1 {
-      font-size: 56px; /* größer */
+      font-size: 56px;
       text-align: center;
       line-height: 1.9;
       margin-bottom: 1em;
@@ -39,10 +40,30 @@
       margin-bottom: 4em;
     }
 
+    /* Was ist jetzt lebendig */
     .highlight {
-      font-size: 26px; /* Was ist jetzt lebendig */
-      margin-top: 4em;
-      margin-bottom: 4em;
+      font-size: 26px;
+      margin-bottom: 45px;
+    }
+
+    /* Zentrierte Zwischenzeilen */
+    .center-line {
+      font-size: 23px;
+      color: #333333;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    .space-75 {
+      margin-bottom: 75px;
+    }
+
+    .space-60 {
+      margin-top: 60px;
+    }
+
+    .space-40 {
+      margin-bottom: 40px;
     }
 
     .small {
@@ -55,6 +76,7 @@
       h1 { font-size: 40px; }
       p { font-size: 18px; }
       .highlight { font-size: 22px; }
+      .center-line { font-size: 20px; }
       .small { font-size: 14px; }
     }
   </style>
@@ -73,7 +95,12 @@
 
     <p class="highlight">Was ist jetzt lebendig?</p>
 
-    <p>Richtung entsteht durch Wahrnehmung.</p>
+
+    <!-- Zentrierte Zeile nach Highlight -->
+    <p class="center-line space-75">
+      Richtung entsteht durch Wahrnehmung.
+    </p>
+
 
     <p>Wir wenden uns der Stelle zu,<br>an der dein Körper wieder mit dir spricht.</p>
 
@@ -97,12 +124,23 @@
     <p>
       Wir klären kurz, ob Resonanz da ist.<br>
       Dann treffen wir uns online oder in Präsenz.<br>
-      Ohne Verpflichtung. Ohne Programm.
+      Ohne Verpflichtung.<br>
+      Ohne Programm.
     </p>
+
 
     <p>Wenn du beim Lesen etwas gespürt hast,<br>reicht das.</p>
 
+
+    <!-- Unterer CTA-Bereich -->
+    <div class="space-60"></div>
+
+    <p class="center-line space-40">
+      Richtung entsteht durch Wahrnehmung.
+    </p>
+
     <p>Wenn du magst, schreib mir.</p>
+
 
     <p class="small">Ich antworte innerhalb von 48 Stunden</p>
 
