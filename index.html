@@ -35,12 +35,11 @@
 
     p {
       font-size: 22px;
-      text-align: left;
       line-height: 1.9;
       margin-bottom: 4em;
+      text-align: left; /* Standard linksbündig */
     }
 
-    /* Was ist jetzt lebendig */
     .highlight {
       font-size: 26px;
       margin-bottom: 45px;
@@ -52,15 +51,6 @@
       color: #333333;
       text-align: center;
       margin-bottom: 50px;
-    }
-
-    /* Links-bündige Zeilen nach ◦ */
-    .left-line {
-      font-size: 23px;
-      color: #333333;
-      text-align: left !important; /* erzwingt linksbündig */
-      line-height: 1.6;
-      margin-bottom: 75px;
     }
 
     .space-60 { margin-top: 60px; }
@@ -78,7 +68,6 @@
       p { font-size: 18px; }
       .highlight { font-size: 22px; }
       .center-dot { font-size: 20px; }
-      .left-line { font-size: 20px; }
       .small { font-size: 14px; }
     }
   </style>
@@ -95,11 +84,11 @@
 
     <p class="highlight">Was ist jetzt lebendig?</p>
 
-    <!-- Neuer Punkt ◦ nach Highlight -->
+    <!-- Punkt ◦ nach Highlight -->
     <p class="center-dot">◦</p>
 
     <!-- Links-bündige Zeile nach ◦ -->
-    <p class="left-line">
+    <p>
       Richtung entsteht durch Wahrnehmung.
     </p>
 
@@ -131,7 +120,7 @@
     <p class="center-dot space-50">◦</p>
 
     <!-- Links-bündiger Textbereich -->
-    <p class="left-line space-40-text">
+    <p style="margin-top:40px;">
       Wenn du magst, schreib mir.<br>
       Ohne Verpflichtung.<br>
       Ohne Programm.
