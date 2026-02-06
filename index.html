@@ -51,21 +51,21 @@
       font-size: 24px;
       color: #333333;
       text-align: center;
-      margin-bottom: 50px; /* Abstand nach Highlight */
+      margin-bottom: 50px;
     }
 
     /* Links-bündige Zeilen nach ◦ */
     .left-line {
       font-size: 23px;
       color: #333333;
-      text-align: left;
+      text-align: left !important; /* erzwingt linksbündig */
       line-height: 1.6;
       margin-bottom: 75px;
     }
 
     .space-60 { margin-top: 60px; }
-    .space-50 { margin-top: 50px; } /* Abstand für ◦ vor "schreib mir" */
-    .space-40-text { margin-top: 40px; } /* Abstand für Text "Wenn du magst..." */
+    .space-50 { margin-top: 50px; }
+    .space-40-text { margin-top: 40px; }
 
     .small {
       font-size: 17px;
@@ -127,7 +127,7 @@
     <!-- Unterer CTA-Bereich -->
     <div class="space-60"></div>
 
-    <!-- Punkt ◦ vor "Wenn du magst, schreib mir." -->
+    <!-- Punkt ◦ vor Text -->
     <p class="center-dot space-50">◦</p>
 
     <!-- Links-bündiger Textbereich -->
