@@ -5,10 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landingpage</title>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
   <style>
     body {
       margin: 0;
-      padding: 40px 20px;
+      padding: 140px 20px 40px; /* 100px mehr oben */
       font-family: 'Libre Baskerville', serif;
       background-color: #E4DDD1;
       color: #333333;
@@ -18,42 +19,50 @@
       align-items: flex-start;
       box-sizing: border-box;
     }
+
     .container {
       max-width: 800px;
       width: 100%;
     }
+
     h1 {
-      font-size: 52px;
+      font-size: 56px; /* größer */
       text-align: center;
       line-height: 1.9;
-      margin-bottom: 1em; /* Abstand zur ersten Textzeile verringert */
+      margin-bottom: 1em;
     }
+
     p {
-      font-size: 22px; /* Fließtextgröße */
+      font-size: 22px;
       text-align: left;
       line-height: 1.9;
-      margin-bottom: 4em; /* Abstand nach Absatz */
+      margin-bottom: 4em;
     }
-    .extra-space {
-      margin-top: 4em; /* zusätzliche Leerzeile oben */
-      margin-bottom: 4em; /* zusätzliche Leerzeile unten */
+
+    .highlight {
+      font-size: 26px; /* Was ist jetzt lebendig */
+      margin-top: 4em;
+      margin-bottom: 4em;
     }
+
     .small {
       font-size: 17px;
-      line-height: 2.0;
+      line-height: 2;
       margin-top: 4em;
-      text-align: left;
     }
 
     @media (max-width: 600px) {
-      h1 { font-size: 36px; }
+      h1 { font-size: 40px; }
       p { font-size: 18px; }
+      .highlight { font-size: 22px; }
       .small { font-size: 14px; }
     }
   </style>
 </head>
+
 <body>
   <div class="container">
+
     <h1>Willkommen</h1>
 
     <p>Gut, dass du hier bist.<br>Ein Raum zum Atmen.</p>
@@ -62,15 +71,22 @@
 
     <p>Für einen Austausch,<br>der sich stimmig anfühlt.</p>
 
-    <p class="extra-space">Was ist jetzt lebendig?</p>
+    <p class="highlight">Was ist jetzt lebendig?</p>
 
-    <p class="extra-space">Richtung entsteht durch Wahrnehmung.</p>
+    <p>Richtung entsteht durch Wahrnehmung.</p>
 
     <p>Wir wenden uns der Stelle zu,<br>an der dein Körper wieder mit dir spricht.</p>
 
     <p>Dort entsteht Energie.<br>Und aus Energie entsteht Richtung.</p>
 
-    <p>Für dich, wenn du:<br>• viel fühlst, aber dich oft im Kopf verlierst<br>• deinem Körper mehr vertraust als deinen Gedanken<br>• keine weiteren Konzepte willst<br>• das Erleben dem Machen vorziehst<br>• Ehrlichkeit höher schätzt als Komfort</p>
+    <p>
+      Für dich, wenn du:<br>
+      • viel fühlst, aber dich oft im Kopf verlierst<br>
+      • deinem Körper mehr vertraust als deinen Gedanken<br>
+      • keine weiteren Konzepte willst<br>
+      • das Erleben dem Machen vorziehst<br>
+      • Ehrlichkeit höher schätzt als Komfort
+    </p>
 
     <p>Wir arbeiten nicht mit dem,<br>was du willst.</p>
 
@@ -78,13 +94,18 @@
 
     <p>Wenn das sichtbar wird,<br>entsteht Richtung von selbst.</p>
 
-    <p>Wir treffen uns.<br>Online oder in Präsenz.<br>Wir prüfen die Resonanz.</p>
+    <p>
+      Wir klären kurz, ob Resonanz da ist.<br>
+      Dann treffen wir uns online oder in Präsenz.<br>
+      Ohne Verpflichtung. Ohne Programm.
+    </p>
 
     <p>Wenn du beim Lesen etwas gespürt hast,<br>reicht das.</p>
 
-    <p>Schreib mir.</p>
+    <p>Wenn du magst, schreib mir.</p>
 
     <p class="small">Ich antworte innerhalb von 48 Stunden</p>
+
   </div>
 </body>
 </html>
