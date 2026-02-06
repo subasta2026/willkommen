@@ -46,14 +46,6 @@
       margin-bottom: 45px;
     }
 
-    /* Zentrierte Zwischenzeilen */
-    .center-line {
-      font-size: 23px;
-      color: #333333;
-      text-align: center;
-      line-height: 1.6;
-    }
-
     /* Zentrierte Punkte ◦ */
     .center-dot {
       font-size: 24px;
@@ -62,10 +54,17 @@
       margin-bottom: 50px; /* Abstand nach Highlight */
     }
 
-    .space-75 { margin-bottom: 75px; }
+    /* Links-bündige Zeilen nach ◦ */
+    .left-line {
+      font-size: 23px;
+      color: #333333;
+      text-align: left;
+      line-height: 1.6;
+      margin-bottom: 75px;
+    }
+
     .space-60 { margin-top: 60px; }
-    .space-40 { margin-bottom: 40px; }
-    .space-50 { margin-top: 50px; } /* neuer Abstand für ◦ vor "schreib mir" */
+    .space-50 { margin-top: 50px; } /* Abstand für ◦ vor "schreib mir" */
     .space-40-text { margin-top: 40px; } /* Abstand für Text "Wenn du magst..." */
 
     .small {
@@ -78,8 +77,8 @@
       h1 { font-size: 40px; }
       p { font-size: 18px; }
       .highlight { font-size: 22px; }
-      .center-line { font-size: 20px; }
       .center-dot { font-size: 20px; }
+      .left-line { font-size: 20px; }
       .small { font-size: 14px; }
     }
   </style>
@@ -99,8 +98,8 @@
     <!-- Neuer Punkt ◦ nach Highlight -->
     <p class="center-dot">◦</p>
 
-    <!-- Zentrierte Zeile nach Highlight -->
-    <p class="center-line space-75">
+    <!-- Links-bündige Zeile nach ◦ -->
+    <p class="left-line">
       Richtung entsteht durch Wahrnehmung.
     </p>
 
@@ -131,8 +130,8 @@
     <!-- Punkt ◦ vor "Wenn du magst, schreib mir." -->
     <p class="center-dot space-50">◦</p>
 
-    <!-- Neuer Textbereich -->
-    <p class="center-line space-40-text">
+    <!-- Links-bündiger Textbereich -->
+    <p class="left-line space-40-text">
       Wenn du magst, schreib mir.<br>
       Ohne Verpflichtung.<br>
       Ohne Programm.
