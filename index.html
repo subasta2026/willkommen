@@ -21,7 +21,7 @@
     .container {
       max-width: 800px;
       width: 100%;
-      margin: 0 auto; /* Container zentrieren */
+      margin: 0 auto;
     }
 
     h1 {
@@ -35,7 +35,7 @@
       font-size: 22px;
       line-height: 1.9;
       margin-bottom: 4em;
-      text-align: left; /* Standard linksbündig */
+      text-align: left;
     }
 
     .highlight {
@@ -43,7 +43,7 @@
       margin-bottom: 45px;
     }
 
-    /* Zentrierte Punkte ◦ */
+    /* Zentrierte Punkte */
     .center-dot {
       font-size: 24px;
       color: #333333;
@@ -54,6 +54,18 @@
     .space-60 { margin-top: 60px; }
     .space-50 { margin-top: 50px; }
     .space-40-text { margin-top: 40px; }
+
+    .email-link {
+      color: #333333;
+      text-decoration: none;
+      font-size: 22px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .email-link:hover {
+      text-decoration: underline;
+    }
 
     .small {
       font-size: 17px;
@@ -67,6 +79,7 @@
       .highlight { font-size: 22px; }
       .center-dot { font-size: 20px; }
       .small { font-size: 14px; }
+      .email-link { font-size: 18px; }
     }
   </style>
 </head>
@@ -77,21 +90,22 @@
     <h1>Willkommen</h1>
 
     <p>Gut, dass du hier bist.<br>Ein Raum zum Atmen.</p>
+
     <p>Tritt ein.</p>
+
     <p>Für einen Austausch,<br>der sich stimmig anfühlt.</p>
 
     <p class="highlight">Was ist jetzt lebendig?</p>
 
-    <!-- Punkt ◦ nach Highlight -->
+    <!-- Punkt -->
     <p class="center-dot">◦</p>
 
-    <!-- Links-bündige Zeile nach ◦ -->
-    <p>
-      Richtung entsteht durch Wahrnehmung.
-    </p>
+    <p>Richtung entsteht durch Wahrnehmung.</p>
 
     <p>Wir wenden uns der Stelle zu,<br>an der dein Körper wieder mit dir spricht.</p>
+
     <p>Dort entsteht Energie.<br>Und aus Energie entsteht Richtung.</p>
+
     <p>
       Für dich, wenn du:<br>
       • viel fühlst, aber dich oft im Kopf verlierst<br>
@@ -100,31 +114,39 @@
       • das Erleben dem Machen vorziehst<br>
       • Ehrlichkeit höher schätzt als Komfort
     </p>
+
     <p>Wir arbeiten nicht mit dem,<br>was du willst.</p>
+
     <p>Wir arbeiten mit dem,<br>was in dir lebt.</p>
+
     <p>Wenn das sichtbar wird,<br>entsteht Richtung von selbst.</p>
+
     <p>
       Wir klären kurz, ob Resonanz da ist.<br>
       Dann treffen wir uns online oder in Präsenz.<br>
       Ohne Verpflichtung.<br>
       Ohne Programm.
     </p>
+
     <p>Wenn du beim Lesen etwas gespürt hast,<br>reicht das.</p>
 
-    <!-- Unterer CTA-Bereich -->
+    <!-- Abstand -->
     <div class="space-60"></div>
 
-    <!-- Punkt ◦ vor Text -->
+    <!-- Punkt -->
     <p class="center-dot space-50">◦</p>
 
-    <!-- Links-bündiger Textbereich -->
-   <p class="space-40-text">
-  Wenn du magst, schreib mir.<br><br>
+    <!-- Kontaktbereich -->
+    <p class="space-40-text">
 
-  <a href="mailto:hier@willkommen.space" class="email-link">
-    hier@willkommen.space
-  </a>
-</p>
+      Wenn du magst, schreib mir.<br><br>
+
+      <a href="mailto:hier@willkommen.space" class="email-link">
+        hier@willkommen.space
+      </a>
+
+    </p>
+
     <p class="small">Ich antworte innerhalb von 48 Stunden</p>
 
   </div>
